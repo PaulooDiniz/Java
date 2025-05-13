@@ -8,12 +8,11 @@ public class ContaBanco {
     private float saldo;
     private boolean status;
     
-   public ContaBanco(int c, String t, String n, float s){
+   public ContaBanco(){
        
-       this.setNumConta(c);
-       this.setTipo(t);
-       this.setDono(n);
-       this.setSaldo(s);       
+       this.setNumConta(0);
+       this.setDono("SEM NOME");
+       this.setSaldo(0);       
        
    }
     
