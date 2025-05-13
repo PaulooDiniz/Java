@@ -4,9 +4,9 @@ public class Banco {
 
         public static void main(String[] args) {
         
-            ContaBanco c1 = new ContaBanco(000,"cp","sem nome",0.0f);
+            ContaBanco c1 = new ContaBanco();
             
-            ContaBanco c2 = new ContaBanco(001,"cc","sem nome",0.0f);
+            ContaBanco c2 = new ContaBanco();
             
             c1.abrirConta("cp");
             c1.setNumConta(123);
